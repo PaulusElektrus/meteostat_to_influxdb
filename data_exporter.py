@@ -19,7 +19,7 @@ def get():
     place = '10866'
 
     data = Hourly(place, start, end)
-    ("Getting Data")
+    print("Getting Data")
     data = data.fetch()
     return data
 
